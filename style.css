@@ -1,0 +1,99 @@
+body{
+  text-align: center;
+  margin: 0px;
+  margin-bottom:300px;
+  background: linear-gradient(cyan, pink);
+  font-family: 'Happy Monkey' , Arial;
+  transition: all 1s;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main-event{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3{
+  display: flex;
+  justify-content: center;
+
+}
+
+.midtitle{
+margin: 0px;
+padding: 30px;
+
+}
+
+.section1{
+  height: 400px;
+  width: 100%;
+  background: url("abuja.webp");
+  background-size: cover;
+  background-position:center;
+  display: inline-block;
+ 
+}
+
+.section2{
+  background: linear-gradient(pink  , cyan );
+}
+  
+#maintitle{
+  color: antiquewhite;
+  font-size: 40px;
+  text-shadow: 5px 5px 10px black ;
+}
+
+#maintitle2{
+  color: antiquewhite;
+  font-size: 20px ;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px black ;
+}
+
+p{
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+#information{
+  margin-top: 50px;
+  display: inline-block;
+  border: 1px solid rgb(204, 173, 173);
+  width:700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0 , 0.15);
+  background: linear-gradient(pink, rgb(224, 95, 95));
+  cursor: pointer;
+}
+
+.profile-description{
+  margin-left: 55px;
+}
+
+.food:hover{
+  background: url("eating.webp");
+  cursor: pointer;
+}
+
+.concert:hover{
+  background: url("singing.webp");
+  cursor: pointer;
+  background-size: cover;
+}
+
+.sports:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+  
+}
